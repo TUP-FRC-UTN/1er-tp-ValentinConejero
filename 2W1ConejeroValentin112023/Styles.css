@@ -1,0 +1,169 @@
+.logo {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 40px;
+}
+
+.logoUtn{
+    width: 100px;
+    height: 20px;
+}
+
+.logoTup{
+    width: 110px;
+    height: 45px;
+}
+
+.txtw{
+    color: #ffffff;
+}
+
+.hello{
+    --font_0: normal normal normal 64px/1.2em wfont_6c5a17_7fdd1e57ead542569229d7d2a86821f3,wf_7fdd1e57ead542569229d7d2a,orig_graphik_semibold;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 64px/1.1em wfont_6c5a17_7fdd1e57ead542569229d7d2a86821f3,wf_7fdd1e57ead542569229d7d2a,orig_graphik_semibold;
+    --font_3: normal normal normal 40px/1.3em wfont_6c5a17_7fdd1e57ead542569229d7d2a86821f3,wf_7fdd1e57ead542569229d7d2a,orig_graphik_semibold;
+    --font_4: normal normal normal 24px/1.5em wfont_5e3ef3_c1c8b8d0f9454dca85551b11d92f6f66,wf_c1c8b8d0f9454dca85551b11d,orig_graphik;
+    --font_5: normal normal normal 18px/1.4em wfont_6c5a17_7fdd1e57ead542569229d7d2a86821f3,wf_7fdd1e57ead542569229d7d2a,orig_graphik_semibold;
+    --font_6: normal normal normal 18px/1.6em wfont_5e3ef3_c1c8b8d0f9454dca85551b11d92f6f66,wf_c1c8b8d0f9454dca85551b11d,orig_graphik;
+    --font_7: normal normal normal 16px/1.2em wfont_6c5a17_7fdd1e57ead542569229d7d2a86821f3,wf_7fdd1e57ead542569229d7d2a,orig_graphik_semibold;
+    --font_8: normal normal normal 14px/1.4em wfont_5e3ef3_c1c8b8d0f9454dca85551b11d92f6f66,wf_c1c8b8d0f9454dca85551b11d,orig_graphik;
+    --font_9: normal normal normal 14px/1.4em proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    --minViewportSize: 320;
+    --color_26: 213,213,213;
+    --maxViewportSize: 1920;
+    --pinned-layers-in-page: 0;
+    --pinned-layer-in-container: 51;
+    --above-all-in-container: 49;
+    --transition-duration: 600ms;
+    --padding: 0px;
+    --margin: 0px;
+    --firstChildMarginTop: -1px;
+    --lastChildMarginBottom: -1px;
+    --bg-overlay-color: rgb(255, 255, 255);
+    --bg-gradient: none;
+    --column-width: 980px;
+    --column-flex: 980;
+    overflow-wrap: break-word;
+    text-align: start;
+    --min-height: 79px;
+    visibility: inherit;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    pointer-events: auto;
+    font: var(--font_0);
+    color: rgb(var(--color_13));
+    letter-spacing: 0em;
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 80px;
+}
+
+.logoP{
+   height: 130px;
+   width: 130px;
+}
+
+.logoc{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.margi{
+    margin-right: 7rem;
+}
+
+.marg{
+    padding-left: 0px;
+}
+
+.pp{
+    justify-content: end;
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.start{
+    justify-content: start;
+    display: flex;
+}
+
+.margb{
+    margin-bottom: 2rem;
+}
+
+.margo{
+    margin-right: 3rem;
+    
+}
+
+@media only screen and (max-width: 576px){
+    .movilp{
+        padding: 0 16px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .movili{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movilism{
+        margin-right: 7rem;
+    }
+}
+
+.formargT{
+    margin-top: 10px;
+}
+
+.formargB{
+    margin-bottom: 10px;
+}
+
+.formargH{
+    border-bottom: 0px;
+}
+
+.butP{
+    padding-right: 0px;
+}
+
+.butM{
+    margin-right: 0px;
+}
+
+.cv{
+    overflow: hidden;
+}
+
+.imgcv{
+    width: 29.6rem;
+}
+
+.transformed{
+    transition: transform .7s ease-in-out;
+}
+
+.transformed:hover{
+    transform: rotate(360deg);
+}

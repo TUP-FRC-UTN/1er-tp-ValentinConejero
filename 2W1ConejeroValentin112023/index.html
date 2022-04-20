@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="Styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("#hola").mouseenter(function () {
+        $("#hola").css("font-size", "94px")
+      });
+      $("#hola").mouseleave(function () {
+        $("#hola").css("font-size", "64px")
+      });
+    });
+  </script>
+  <link rel="shortcut icon" href="./img/Logo.jpg">
+  <title>Conejero Valentin</title>
+
+</head>
+
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="./img/Logo.jpg" class="logo transformed">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#presentacion">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#informacion">Informacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educacion">Educacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#objetivos">Objetivos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Mas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalCV">Ver CV</a></li>
+              <li><a class="dropdown-item" href="#" onclick="error()">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="#" onclick="error()">Instagram</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalId">Form De
+                  Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr class="txtw">
+
+  <a name="presentacion"></a>
+
+  <div class="container">
+
+    <div class="row">
+      <h2 class="hello text-danger col-lg-12 col-sm-12 movilp" id="hola">HOLA!</h2>
+      <div class="col-lg-6 col-sm-6 marg movilp">
+        <h5 class="txtw">Soy <b class="text-danger">Valentin Conejero.</b> tengo 22 años siempre me gusto
+          el mundo del
+          hardware y software. <br> Actualemente estudio en UTN-FRC la carrera Tecnicatura en Programación.</h5>
+      </div>
+      <div class="col-lg-6 col-sm-6 center logoc">
+        <img src="./img/progLog.png" class="logoP transformed">
+      </div>
+    </div>
+  </div>
+
+  <hr class="text-danger">
+
+  <a name="informacion"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6  center logoc">
+        <img src="./img/LogoInfo.png" class="logoP transformed">
+      </div>
+      <div class="col-lg-6 col-sm-6 end">
+        <div class="margi movili movilism">
+          <h2 class="text-danger"><u>Información</u></h2>
+          <div>
+            <p class="txtw"><b>Email:&nbsp</b> valentinconejero@gmail.com</p>
+          </div>
+          <div>
+            <p class="txtw"><b>Telefono:&nbsp</b> 3518067532</p>
+          </div>
+          <div>
+            <p class="txtw"><b>Dni:&nbsp</b> 42336315</p>
+          </div>
+          <div>
+            <p class="txtw"><b>Fecha de nacimiento:&nbsp</b> 18/01/2000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="text-danger">
+
+  <a name="educacion"></a>
+  <div class="container">
+    <div class="row">
+      <h2 class="text-danger"><u>Educación</u></h2>
+      <br>
+      <br>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div>
+          <b class="txtw">Nivel Primario:&nbsp</b>
+          <p class="txtw pp"> Juan Zorrilla de San Martin Córdoba, Argentina 2006 – 2011
+            - Título primario, completo</p>
+        </div>
+
+        <hr class="txtw">
+
+        <div>
+          <b class="txtw">Nivel Secundario:&nbsp</b>
+          <p class="txtw pp"> Fernando Fader Córdoba, Argentina 2012 – 2017
+            - Titulo secundario, completo </p>
+        </div>
+
+        <hr class="txtw">
+
+        <div>
+          <b class="txtw">Nivel Univeristario:&nbsp</b>
+          <p class="txtw pp"> UTN FRC - Universidad Tecnológica Nacional
+            Córdoba, Argentina - Cursando: Tecnicatura en programación.</p>
+        </div>
+
+        <hr class="txtw">
+
+        <div>
+          <b class="txtw">Curso React Js:&nbsp</b>
+          <p class="txtw ">CoderHouse
+            - Cursado en 2021.
+            - Certificado Online:&nbsp<a href="https://www.coderhouse.com/certificados/61b1439cfb1ca00061afc3c3"
+              target="_blank" rel="noopener noreferrer">IR</a></p>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 center logoc">
+        <img src="./img/LogoEdu.png" class="logoP transformed">
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <hr class="text-danger">
+
+  <a name="experiencia"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 center logoc">
+        <img src="./img/LogoJob.png" class="logoP transformed">
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 end">
+        <div>
+          <h2 class="text-danger"><u>Experiencia</u></h2>
+          <div>
+
+            <h6> <b class="text-danger">Fábrica de Golosinas</b></h6>
+
+            <p class="txtw"> -Empresa: Queens Candy <br>
+
+              -Córdoba, Argentina <br>
+
+              -Enero 2016 - Marzo 2019 <br>
+
+              • Administración y logística. <br>
+              • Reparar y mantener equipos (hardware y software).
+            </p>
+          </div>
+
+          <hr class="txtw">
+
+          <div>
+            <h6><b class="text-danger">Policia de Córdoba</b></h6>
+
+            <p class="txtw"> -Córdoba, Argentina <br>
+
+              -Agosto 2019 - Enero 2020 <br>
+
+              • Relevamiento de armas
+
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <hr class="text-danger">
+
+  <a name="habilidades"></a>
+  <div class="container">
+    <div class="row">
+      <h2 class="text-danger"><u>Habilidades</u></h2>
+
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <p class="txtw start"><b class="text-danger">•</b>Conocimientos de redes.</p>
+        <br>
+        <p class="txtw start"><b class="text-danger">•</b>Aprender sobre nuevas tecnologías y su manejo.</p>
+        <br>
+        <p class="txtw start"><b class="text-danger">•</b>Rápida adaptación a nuevos programas.</p>
+        <br>
+        <p class="txtw start"><b class="text-danger">•</b>Análisis de sistemas y problemáticas.</p>
+        <br>
+        <p class="txtw start"><b class="text-danger">•</b>Facilidad para manejo de pc.</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 center logoc">
+        <img src="./img/LogoHab.png" class="logoP transformed">
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="text-danger">
+
+  <a name="objetivos"></a>
+  <div class="container margb">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 center logoc">
+        <img src="./img/LogoObj.png" class="logoP transformed" id="logo">
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 end">
+        <div class="margo">
+          <h2 class="text-danger"><u>Objetivos</u></h2>
+          <p class="txtw"><b class="text-danger">1-</b>Aprender a formarme profesionalmente.</p>
+          <br>
+          <p class="txtw"><b class="text-danger">2-</b> Adquirir experiencia en trabajo en equipo.</p>
+          <br>
+          <p class="txtw"><b class="text-danger">3-</b>Desarrollo personal.</p>
+          <br>
+          <p class="txtw"><b class="text-danger">4-</b>Obtener capacitación y experiencia.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <div class="container-fluid">
+      <img src="./img/LogoUtn.png" class="logoUtn">
+      <div class="collapse navbar-collapse center" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#presentacion">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#informacion">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="error()">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="error()">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalCV">Ver CV</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalId">Form De Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <img src="./img/LogoTup.png" class="logoTup">
+    </div>
+  </nav>
+
+  <div class="modal" tabindex="-1" id="modalId">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger formargH">
+          <h5 class="modal-title">Formulario de Contacto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="container bg-dark">
+          <form onsubmit="event.preventDefault(); validar();" id="form" class="bg-dark">
+            <div class="form-group formargT">
+              <label for="exampleInputEmail1" class="txtw"><b>Email</b></label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                placeholder="Ingrese el email">
+            </div>
+            <div class="form-group">
+              <label for="InputName" class="txtw"><b>Nombre y Apellido</b></label>
+              <input type="text" class="form-control" id="InputName" placeholder="Ingrese nombre y apellido">
+            </div>
+            <div class="form-group formargB">
+              <label for="FormControlTextarea" class="txtw"><b>Mensaje</b></label>
+              <textarea class="form-control" id="FormControlTextarea" rows="3"
+                placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <div class="modal-footer butP">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="btnclose">Salir</button>
+              <button type="submit" class="btn btn-success butM">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal" tabindex="-1" id="modalCV">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger formargH center">
+          <h5 class="modal-title">Curriculum Vitae</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="container bg-dark cv">
+          <img src="./img/curriculum-vitae-modelo.jpg" alt="" class="imgcv">
+          <div class="modal-footer center">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="btnclose">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+  <script>
+    function error() {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Esto no se encuentra disponible',
+      })
+    }
+
+    function validar() {
+
+      var Email = document.getElementById("InputEmail")
+      var NomAp = document.getElementById("InputName")
+      var Mensaje = document.getElementById("FormControlTextarea")
+
+      if (Email.value === "") {
+        Swal.fire({
+          icon: 'error',
+          title: 'ERROR',
+          text: 'Ingrese un Email'
+        })
+
+        return false
+      }
+
+      if (NomAp.value === "") {
+        Swal.fire({
+          icon: 'error',
+          title: 'ERROR',
+          text: 'Ingrese su Nombre y Apellido'
+        })
+
+        return false
+      }
+
+      if (Mensaje.value === "") {
+        Swal.fire({
+          icon: 'error',
+          title: 'ERROR',
+          text: 'Ingrese su Mensaje',
+        })
+
+        return false
+      }
+
+      return true
+    }
+
+    document.getElementById("form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (validar()) {
+        document.getElementById("form").reset()
+        Swal.fire({
+          position: 'top-center',
+          icon: 'success',
+          title: 'Mensaje Enviado Gracias',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        document.getElementById("btnclose").click();
+      }
+      form.submit();
+    });
+
+  </script>
+
+
+</body>
+
+</html>
